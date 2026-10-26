@@ -39,3 +39,9 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# QA-only datasets/results — never shipped, never committed (see docs/DATASET_CALIBRATION.md)
+/qa-data/
+/qa-results/
+.qa_shots/
+.qa_tmp_ui.xml

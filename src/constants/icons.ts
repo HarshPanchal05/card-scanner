@@ -1,0 +1,55 @@
+/** Centralized icon name mapping — the single place that decides which Ionicons glyph represents
+ *  a given concept, so the same action/entity always gets the same icon everywhere it appears. */
+export const icons = {
+  dashboard: 'home',
+  dashboardOutline: 'home-outline',
+  library: 'albums',
+  libraryOutline: 'albums-outline',
+  reports: 'bar-chart',
+  reportsOutline: 'bar-chart-outline',
+  settings: 'settings',
+  settingsOutline: 'settings-outline',
+  scan: 'camera',
+  scanOutline: 'camera-outline',
+
+  company: 'business-outline',
+  representative: 'person-outline',
+  phone: 'call-outline',
+  email: 'mail-outline',
+  address: 'location-outline',
+  website: 'globe-outline',
+  category: 'pricetag-outline',
+  notes: 'document-text-outline',
+  lock: 'lock-closed',
+  moreVertical: 'ellipsis-vertical',
+
+  edit: 'create-outline',
+  delete: 'trash-outline',
+  save: 'checkmark-circle-outline',
+  add: 'add-circle-outline',
+  addPlain: 'add',
+  close: 'close',
+  back: 'chevron-back',
+  forward: 'chevron-forward',
+  search: 'search-outline',
+  filter: 'filter-outline',
+  share: 'share-outline',
+  contacts: 'person-add-outline',
+
+  storage: 'server-outline',
+  backup: 'cloud-upload-outline',
+  restore: 'cloud-download-outline',
+  event: 'calendar-outline',
+  archive: 'archive-outline',
+  checkmark: 'checkmark',
+
+  success: 'checkmark-circle',
+  warning: 'alert-circle',
+  error: 'close-circle',
+  info: 'information-circle-outline',
+  image: 'image-outline',
+  expand: 'expand-outline',
+  flip: 'sync-outline',
+} as const;
+
+export type IconName = (typeof icons)[keyof typeof icons];

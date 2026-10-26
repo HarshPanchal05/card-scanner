@@ -1,0 +1,498 @@
+[
+  {
+    "id": "REAL-001",
+    "source": "Stanford MVS business-card dataset, Reference/003.jpg",
+    "company": {
+      "expected": "NAMI NAMI",
+      "actual": "NAMI NAMI",
+      "result": "PASS"
+    },
+    "personName": {
+      "expected": "Shoichi Shiono",
+      "actual": "Shoichi Shiono",
+      "result": "PASS"
+    },
+    "designation": {
+      "expected": "executive chef",
+      "actual": "executive chef",
+      "result": "PASS"
+    },
+    "phones": {
+      "expected": [
+        "6509646990"
+      ],
+      "actual": [
+        "6509646990"
+      ],
+      "result": "PASS"
+    },
+    "emails": {
+      "actual": [],
+      "result": "N/A"
+    },
+    "website": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "address": {
+      "expected": "Mountain View",
+      "actual": null,
+      "result": "FAIL"
+    }
+  },
+  {
+    "id": "REAL-002",
+    "source": "Stanford MVS business-card dataset, Reference/011.jpg (right edge cropped in source scan)",
+    "company": {
+      "expected": "BLUEWAVE",
+      "actual": "BLUEWAVE",
+      "result": "PASS"
+    },
+    "personName": {
+      "expected": "JIM WHITEHURST",
+      "actual": null,
+      "result": "FAIL"
+    },
+    "designation": {
+      "expected": "Senior Vice President, People and Brand",
+      "actual": "Senior Vice President, People and Brand",
+      "result": "PASS"
+    },
+    "phones": {
+      "expected": [
+        "6013971239",
+        "6013971287"
+      ],
+      "actual": [
+        "6013971239",
+        "6013971287"
+      ],
+      "result": "PASS"
+    },
+    "emails": {
+      "expected": [
+        "whitehurst@blurwave.com"
+      ],
+      "actual": [
+        "whitehurst@blurwave.com"
+      ],
+      "result": "PASS"
+    },
+    "website": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "address": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "note": "Source scan itself truncates the email domain and the designation line at the right edge — transcribed exactly as legible."
+  },
+  {
+    "id": "REAL-003",
+    "source": "Stanford MVS business-card dataset, Reference/017.jpg",
+    "company": {
+      "expected": "CIRCADE",
+      "actual": "CIRCADE",
+      "result": "PASS"
+    },
+    "personName": {
+      "expected": "Bernard Desarnauts",
+      "actual": null,
+      "result": "FAIL"
+    },
+    "designation": {
+      "expected": "Founder & CEO",
+      "actual": "Bernard Desarnauts Founder & CEO",
+      "result": "PASS"
+    },
+    "phones": {
+      "expected": [
+        "618024567",
+        "618024568"
+      ],
+      "actual": [
+        "618024567",
+        "618024568"
+      ],
+      "result": "PASS"
+    },
+    "emails": {
+      "expected": [
+        "bdesarnauts@circade.com"
+      ],
+      "actual": [
+        "bdesarnauts@circade.com"
+      ],
+      "result": "PASS"
+    },
+    "website": {
+      "expected": "circade.com",
+      "actual": "www.circade.com",
+      "result": "PASS"
+    },
+    "address": {
+      "actual": null,
+      "result": "N/A"
+    }
+  },
+  {
+    "id": "REAL-004",
+    "source": "Stanford MVS business-card dataset, Reference/024.jpg (name cropped at right edge of source scan)",
+    "company": {
+      "expected": "GL RESOURCES",
+      "actual": "GL RESOURCES",
+      "result": "PASS"
+    },
+    "personName": {
+      "actual": "Tom Hami",
+      "result": "N/A"
+    },
+    "designation": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "phones": {
+      "expected": [
+        "4421334617",
+        "4421334618"
+      ],
+      "actual": [
+        "4421334617",
+        "4421334618"
+      ],
+      "result": "PASS"
+    },
+    "emails": {
+      "actual": [],
+      "result": "N/A"
+    },
+    "website": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "address": {
+      "expected": "York",
+      "actual": "131 Main Street, York, YO1 5BU, United Kingdom",
+      "result": "PASS"
+    },
+    "note": "Representative name is genuinely cropped in the source scan (\"Tom Hami...\") — transcribed as visible; not an OCR/extraction defect."
+  },
+  {
+    "id": "REAL-005",
+    "source": "Stanford MVS business-card dataset, Reference/033.jpg — Indian phone numbers (+91)",
+    "company": {
+      "expected": "Beyond the Network Limited",
+      "actual": "Beyond the Network Limited",
+      "result": "PASS"
+    },
+    "personName": {
+      "expected": "Jimit Gandhi",
+      "actual": "Jimit Gandhi",
+      "result": "PASS"
+    },
+    "designation": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "phones": {
+      "expected": [
+        "912256510827",
+        "912256510826",
+        "919820744226"
+      ],
+      "actual": [
+        "912256510827",
+        "912256510826",
+        "919820744226"
+      ],
+      "result": "PASS"
+    },
+    "emails": {
+      "expected": [
+        "igandhi@btnaccess.com"
+      ],
+      "actual": [
+        "igandhi@btnaccess.com"
+      ],
+      "result": "PASS"
+    },
+    "website": {
+      "expected": "btnaccess.com",
+      "actual": "www.btnaccess.com",
+      "result": "PASS"
+    },
+    "address": {
+      "expected": "Hong Kong",
+      "actual": "20th Floor, East Exchange Tower, 38 Leighton Road",
+      "result": "PARTIAL"
+    },
+    "note": "Card is a Hong Kong-registered company with Indian (+91) contact numbers — real mixed-locale card."
+  },
+  {
+    "id": "REAL-006",
+    "source": "Stanford MVS business-card dataset, Reference/041.jpg",
+    "company": {
+      "expected": "THE COUNTER",
+      "actual": "THE COUNTER",
+      "result": "PASS"
+    },
+    "personName": {
+      "expected": "Jim Glover",
+      "actual": "Jim Glover",
+      "result": "PASS"
+    },
+    "designation": {
+      "expected": "Manager",
+      "actual": "Manager",
+      "result": "PASS"
+    },
+    "phones": {
+      "expected": [
+        "6503213900",
+        "6503213902"
+      ],
+      "actual": [],
+      "result": "FAIL"
+    },
+    "emails": {
+      "expected": [
+        "paloalto@thecounterburger.com"
+      ],
+      "actual": [
+        "paloalto@thecounterburger.com"
+      ],
+      "result": "PASS"
+    },
+    "website": {
+      "expected": "thecounterburger.com",
+      "actual": null,
+      "result": "FAIL"
+    },
+    "address": {
+      "expected": "Palo Alto",
+      "actual": null,
+      "result": "FAIL"
+    }
+  },
+  {
+    "id": "REAL-007",
+    "source": "Stanford MVS business-card dataset, Reference/052.jpg (right edge cropped; no person name printed)",
+    "company": {
+      "expected": "Lotus Thai Bistro",
+      "actual": "Lotus Thai Bistro",
+      "result": "PASS"
+    },
+    "personName": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "designation": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "phones": {
+      "actual": [
+        "6502890"
+      ],
+      "result": "N/A"
+    },
+    "emails": {
+      "actual": [],
+      "result": "N/A"
+    },
+    "website": {
+      "expected": "lotusthaibistro.com",
+      "actual": "www.lotusthaibistro.com",
+      "result": "PASS"
+    },
+    "address": {
+      "expected": "Palo Alto",
+      "actual": null,
+      "result": "FAIL"
+    },
+    "note": "No representative name is printed on this card at all, and the phone/fax digits are themselves cropped in the source scan — a genuine \"no person, incomplete phone\" edge case."
+  },
+  {
+    "id": "REAL-008",
+    "source": "Stanford MVS business-card dataset, Reference/066.jpg",
+    "company": {
+      "expected": "Hitachi, Ltd.",
+      "actual": "Hitachi, Ltd.",
+      "result": "PASS"
+    },
+    "personName": {
+      "expected": "Hideaki Kido",
+      "actual": "Hideaki Kido",
+      "result": "PASS"
+    },
+    "designation": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "phones": {
+      "expected": [
+        "81294525111",
+        "81294527608"
+      ],
+      "actual": [
+        "3191292",
+        "81294525111",
+        "81294527608"
+      ],
+      "result": "PASS"
+    },
+    "emails": {
+      "expected": [
+        "hideaki.kido.fx@hitachi.com"
+      ],
+      "actual": [
+        "hideaki.kido.fx@hitachi.com"
+      ],
+      "result": "PASS"
+    },
+    "website": {
+      "expected": "hitachi.co.jp",
+      "actual": "www.hitachi.co.jp/rd/hrl/",
+      "result": "PASS"
+    },
+    "address": {
+      "expected": "Japan",
+      "actual": null,
+      "result": "FAIL"
+    },
+    "note": "Richest single-representative card in the set: department + designation-like unit name + phone/fax/email/website/address all present."
+  },
+  {
+    "id": "REAL-009",
+    "source": "Stanford MVS business-card dataset, Reference/074.jpg — non-Latin script card",
+    "company": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "personName": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "designation": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "phones": {
+      "expected": [
+        "0966177516"
+      ],
+      "actual": [
+        "035712121",
+        "0966177516",
+        "035715998"
+      ],
+      "result": "PASS"
+    },
+    "emails": {
+      "expected": [
+        "shlin1983@gmail.com"
+      ],
+      "actual": [
+        "shlin1983@gmail.com"
+      ],
+      "result": "PASS"
+    },
+    "website": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "address": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "note": "Traditional-Chinese-script card. Production OCR runs Latin-script recognition only (TextRecognitionScript.LATIN in ocrService.ts) — the Chinese name/company/address are expected to be unrecognized or garbled by the REAL OCR step, but the Latin-script phone numbers and email should still be extracted correctly by the pipeline once any text is present. This fixture tests the pipeline half of that only (given clean transcribed digits/email); true OCR behavior on CJK input is a separate, real limitation to record, not something this harness can exercise."
+  },
+  {
+    "id": "REAL-010",
+    "source": "Stanford MVS business-card dataset, Reference/029.jpg (fax number cropped; company/email domain mismatch)",
+    "company": {
+      "expected": "WING Travel",
+      "actual": "WING Travel",
+      "result": "PASS"
+    },
+    "personName": {
+      "expected": "Joey K. Smith",
+      "actual": null,
+      "result": "FAIL"
+    },
+    "designation": {
+      "expected": "Managing director",
+      "actual": "Managing director",
+      "result": "PASS"
+    },
+    "phones": {
+      "actual": [
+        "7703919071",
+        "77039190"
+      ],
+      "result": "N/A"
+    },
+    "emails": {
+      "expected": [
+        "info@whitesandtravel.com"
+      ],
+      "actual": [
+        "info@whitesandtravel.com"
+      ],
+      "result": "PASS"
+    },
+    "website": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "address": {
+      "expected": "Dunwoody",
+      "actual": "299 Newport Lane - Dunwoody, GA 30338",
+      "result": "PASS"
+    },
+    "note": "Real card where the company display name (\"WING Travel\") and the email domain (\"whitesandtravel.com\") genuinely disagree — a real branding/legacy-domain mismatch, not a transcription error. Fax number is cropped mid-digit in the source scan."
+  },
+  {
+    "id": "REAL-011",
+    "source": "Stanford MVS business-card dataset, Reference/057.jpg — loyalty punch card, not a contact card",
+    "company": {
+      "expected": "Printers Inc Cafe",
+      "actual": "Printers Inc Cafe",
+      "result": "PASS"
+    },
+    "personName": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "designation": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "phones": {
+      "expected": [
+        "6503233347",
+        "6503285246"
+      ],
+      "actual": [
+        "6503233347",
+        "6503285246"
+      ],
+      "result": "PASS"
+    },
+    "emails": {
+      "actual": [],
+      "result": "N/A"
+    },
+    "website": {
+      "actual": null,
+      "result": "N/A"
+    },
+    "address": {
+      "expected": "Palo Alto",
+      "actual": null,
+      "result": "FAIL"
+    },
+    "note": "Not a personal contact card at all (a coffee-shop loyalty punch card) — no representative name exists on it by design. Included specifically to confirm the pipeline does not hallucinate a person when none is printed."
+  }
+]
